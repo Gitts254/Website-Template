@@ -103,3 +103,15 @@ main {
     padding: 20px;
     text-align: center;
 }
+
+/* Add this to your styles.css */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
