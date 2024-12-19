@@ -25,3 +25,68 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 0.5em;
+        font-size: 0.8em;
+    }
+
+    main {
+        padding: 0.5em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    header, footer {
+        padding: 0.75em;
+        font-size: 1em;
+    }
+
+    main {
+        padding: 0.75em;
+    }
+}
+
+/* Flexbox layout for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+/* Flexbox layout for main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+/* Grid layout for main content */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+/* Grid layout for main content */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+@media (min-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}    
