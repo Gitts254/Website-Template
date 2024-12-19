@@ -89,4 +89,17 @@ main {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}    
+}
+
+/* Add this to your styles.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
